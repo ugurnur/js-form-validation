@@ -53,7 +53,6 @@ function validate(e) {
     document.body.appendChild(h1);
   }
 }
-
 function addError(el, msg, nameProp) {
   const spanEl = el.nextElementSibling;
   spanEl.classList.remove("hide");
